@@ -36,7 +36,7 @@ class Node():
         # that was randomly added before.
         for i in self.shuffled:
             if self.sDict[i] == 1:
-                print("Program added {}. ".format(i))
+                print("Shuffled string is {}, program added {}. ".format(self.shuffled, i))
                 break
                 
 def main():
