@@ -2,7 +2,7 @@ import sys
 
 class Node():
     def __init__(self, s, t):
-       assert len(t) - len(s) == 1, "Invalid Input"
+       assert len(t) - len(s) == 1, "Invalid Input
        self.s = s
        self.t = t
        self.sDict = {}
